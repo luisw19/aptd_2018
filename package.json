@@ -1,0 +1,26 @@
+{
+  "name": "aptd_2018",
+  "version": "1.0.0",
+  "description": "API the docs demo",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisw19/aptd_2018.git"
+  },
+  "keywords": [
+    "apiary"
+  ],
+  "author": "Luis Weir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisw19/aptd_2018/issues"
+  },
+  "homepage": "https://github.com/luisw19/aptd_2018#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
