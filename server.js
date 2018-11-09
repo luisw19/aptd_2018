@@ -16,13 +16,11 @@ router.get('/', function(req, res) {
 router.route("/orders")
   // GET method
   .get(function(req, res) {
-    var response = [{
-        "order": "0001"
-      },
-      {
-        "order": "0002"
-      }
-    ];
+    var response =
+      [
+        {"order": "0001"},
+        {"order": "0002"}
+      ];
     res.json(response);
   });
 
